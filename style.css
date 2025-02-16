@@ -1,4 +1,4 @@
-/* 전체 스타일 */
+/* Global Styles */
 body {
     font-family: 'Noto Sans KR', Arial, sans-serif;
     margin: 0;
@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-/* 헤더 스타일 */
+/* Header */
 header {
     background-color: #2e7d32;
     color: white;
@@ -22,7 +22,7 @@ header {
     font-weight: bold;
 }
 
-/* 네비게이션 메뉴 */
+/* Navigation */
 nav {
     display: flex;
     justify-content: center;
@@ -43,7 +43,7 @@ nav a:hover {
     color: #c8e6c9;
 }
 
-/* 메인 배너 */
+/* Hero Section */
 .hero {
     width: 100%;
     height: 400px;
@@ -67,7 +67,7 @@ nav a:hover {
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
 }
 
-/* 콘텐츠 영역 */
+/* Content Sections */
 .content-section {
     max-width: 900px;
     margin: 30px auto;
@@ -77,30 +77,27 @@ nav a:hover {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-/* 이미지 스타일 */
-.content-section img {
-    width: 90%;
-    max-width: 800px;
-    border-radius: 10px;
-    margin-top: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* 갤러리 스타일 */
-.gallery {
+/* Scrap Metal Types */
+.scrap-gallery {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.gallery img {
-    width: 45%;
-    max-width: 400px;
-    border-radius: 10px;
+.scrap-item {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
 }
 
-/* 푸터 스타일 */
+.scrap-item img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
 footer {
     background-color: #2e7d32;
     color: white;
