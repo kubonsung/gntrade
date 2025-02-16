@@ -17,6 +17,11 @@ header {
     font-weight: bold;
 }
 
+.highlight {
+    color: #c8e6c9;
+    font-weight: bold;
+}
+
 /* 네비게이션 메뉴 */
 nav {
     display: flex;
@@ -98,11 +103,6 @@ nav a:hover {
     width: 45%;
     max-width: 400px;
     border-radius: 10px;
-}
-
-/* 하이라이트 글자 */
-.highlight {
-    color: #c8e6c9;
 }
 
 /* 푸터 스타일 */
