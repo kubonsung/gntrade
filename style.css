@@ -13,7 +13,7 @@ header {
     background-color: #2e7d32;
     color: white;
     padding: 15px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -68,11 +68,6 @@ nav a:hover {
 }
 
 /* 콘텐츠 영역 */
-.container {
-    padding: 30px;
-    text-align: center;
-}
-
 .content-section {
     max-width: 900px;
     margin: 30px auto;
