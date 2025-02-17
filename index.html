@@ -3,113 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GN통상 - 업무 제휴 및 견적 요청</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-        }
-        .header {
-            background-color: #2e7d32;
-            color: white;
-            padding: 15px;
-            text-align: center;
-            font-size: 20px;
-            font-weight: bold;
-        }
-        .nav {
-            display: flex;
-            justify-content: center;
-            background-color: #4caf50;
-            padding: 10px;
-        }
-        .nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            margin: 0 10px;
-            font-size: 18px;
-            border-radius: 5px;
-        }
-        .nav a:hover {
-            background-color: #388e3c;
-        }
-        .container {
-            max-width: 600px;
-            margin: 50px auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            text-align: center;
-            color: #2e7d32;
-        }
-        label {
-            font-weight: bold;
-            display: block;
-            margin-top: 10px;
-        }
-        input, textarea, button {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-        button {
-            background-color: #2e7d32;
-            color: white;
-            font-size: 16px;
-            border: none;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #1b5e20;
-        }
-    </style>
+    <title>GN통상 - Green Natural Trade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">GN통상</div>
-    <div class="nav">
-        <a href="index.html">홈</a>
-        <a href="business.html">업무 제휴</a>
-        <a href="company.html">회사소개</a>
-        <a href="business_area.html">사업영역</a>
-        <a href="scrap_types.html">고철 종류</a>
-        <a href="equipment.html">장비 보유 현황</a>
-        <a href="contact.html">문의하기</a>
+    <header>
+        <h1>GN통상 <span class="highlight">(Green Natural Trade)</span></h1>
+        <nav>
+            <a href="#about">회사소개</a>
+            <a href="#business">사업영역</a>
+            <a href="#scrap-types">고철 종류</a>
+            <a href="#contact">견적및문의</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <img src="gn_hero.jpg" alt="친환경 금속 재활용 시설">
+        <div class="hero-text">
+            🌱 지속 가능한 미래, <br> GN통상 (Green Natural Trade)
+        </div>
     </div>
-    <div class="container">
-        <h2>업무 제휴 및 견적 요청</h2>
-        <form action="submit_form.php" method="post" enctype="multipart/form-data">
-            <label for="company">회사명</label>
-            <input type="text" id="company" name="company" required>
-            
-            <label for="name">담당자 성함</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="phone">연락처</label>
-            <input type="tel" id="phone" name="phone" required>
-            
-            <label for="email">이메일</label>
-            <input type="email" id="email" name="email">
-            
-            <label for="details">요청 내용</label>
-            <textarea id="details" name="details" rows="5" required></textarea>
-            
-            <label for="file">첨부 파일 (선택 사항)</label>
-            <input type="file" id="file" name="file">
-            
-            <label>
-                <input type="checkbox" name="privacy" required> 개인정보 수집에 동의합니다.
-            </label>
-            
-            <button type="submit">제휴 및 견적 요청 보내기</button>
-        </form>
+
+    <section id="about" class="content-section">
+        <h2>🌍 회사소개</h2>
+
+        <h3>1. 인사말</h3>
+        <p>안녕하세요, GN통상 대표입니다. 저희 회사는 친환경 경영을 바탕으로 고철 및 자원 재활용을 통해 지속 가능한 미래를 만들어가고 있습니다.</p>
+
+        <h3>2. GN통상이란?</h3>
+        <p><strong>GN통상(Green Natural Trade)</strong>는 친환경 자원 재활용을 선도하는 기업입니다.</p>
+        <p>15년 업력을 바탕으로 고철 및 비철금속 재활용, 폐기물 처리 등 다양한 사업을 운영하고 있습니다.</p>
+
+        <h3>3. 미래 비전</h3>
+        <p>GN통상은 최신 기술을 적용한 스마트 재활용 시스템을 구축하여 보다 효율적이고 친환경적인 자원순환 시스템을 만들어가고자 합니다.</p>
+    </section>
+
+    <section id="business" class="content-section">
+        <h2>📌 사업 영역</h2>
+        <p>GN통상은 철강 스크랩 및 자원 재활용 전문 기업으로 다양한 고철을 취급&최고가 매입합니다.</p>    
+
+        <h3>🔹 생철 스크랩</h3>
+        <ul>
+            <li>✔ **생철 A** - 높은 순도의 가공되지 않은 원철</li>
+            <li>✔ **생철 B** - 일부 사용 흔적이 있는 재활용 가능 철</li>
+        </ul>
+
+        <h3>🔹 중량 스크랩</h3>
+        <ul>
+            <li>✔ **중량 A** - 6mm 이상의 두꺼운 철강 구조물</li>
+            <li>✔ **중량 B** - 비교적 얇지만 무게감 있는 산업용 철</li>
+        </ul>
+
+        <h3>🔹 경량 스크랩</h3>
+        <ul>
+            <li>✔ **경량 A** - 3mm 이하의 가벼운 철강 제품</li>
+            <li>✔ **경량 B** - 얇은 판재류 및 경량 철 구조물</li>
+        </ul>
+
+        <h3>🔹 선반설 스크랩</h3>
+        <ul>
+            <li>✔ **선반설 A** - 깨끗한 기계 가공 후 발생한 철가루</li>
+            <li>✔ **선반설 B** - 약간의 불순물이 포함된 철가루</li>
+            <li>✔ **선반설 C** - 오일이 포함된 산업 가공 철가루</li>
+        </ul>
+
+    <section id="recycling-process" class="content-section">
+    <h2>🔄 고철 및 비철금속 재활용 과정</h2>
+    <p>금속 재활용은 자원을 효율적으로 활용하고 환경을 보호하는 중요한 과정입니다. 아래 단계를 통해 재활용이 진행됩니다.</p>
+    <div class="process-container">
+        <img src="recycling_process.jpg" alt="고철 및 비철금속 재활용 과정">
     </div>
+</section>
+
+
+    <section id="scrap-types" class="content-section">
+        <h2>🔍 고철 종류</h2>
+        <p>철강 산업에서 사용되는 다양한 종류의 고철을 소개합니다.</p>
+        <div class="scrap-gallery">
+            <div class="scrap-item">
+                <img src="scrap_types_eng.png" alt="고철 종류">
+                <p>고철의 분류: 생철, 중량, 경량, 선반설, 압축 스크랩, 파쇄 스크랩</p>
+            </div>
+        </div>
+    </section>
+ <section id="future-vision" class="content-section">
+    <h2>🚀 미래 비전</h2>
+    <p>GN통상은 지속 가능한 미래를 위한 혁신적인 친환경 금속 재활용 시스템을 개발을 목표로 하고 있습니다.</p>
+    <div class="vision-container">
+        <img src="future_vision.jpg" alt="미래 지향적 금속 재활용">
+    </div>
+</section>
+
+
+
+    <section id="contact" class="content-section">
+        <h2>📞 문의하기</h2>
+        <p>궁금한 사항이 있으시면 언제든지 연락주세요!</p>
+        <p>Email: <a href="mailto:bonsung1403@naver.com">bonsung1403@naver.com</a></p>
+        <p>전화: <a href="tel:01026777197">010-2677-7197</a></p>
+        <p>24시간 카카오톡 1:1 채널: <a href="https://pf.kakao.com/_abc123" target="_blank">카카오톡 문의하기</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 GN통상. All rights reserved.</p>
+    </footer>
 </body>
 </html>
