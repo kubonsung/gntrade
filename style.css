@@ -223,6 +223,20 @@ nav a {
     height: auto;
     border-radius: 10px; /* 모서리 둥글게 */
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    max-width: 80%;
+    line-height: 1.5;
 }
 
 
