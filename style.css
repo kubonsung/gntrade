@@ -229,7 +229,47 @@ nav a {
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    max-width: 80%;
+    line-height: 1.4;
+}
+
+/* GN통상 텍스트 크기 강조 */
+.gn-main {
+    font-size: 36px; /* 기본 크기 */
+    font-weight: bold;
+    display: block;
+}
+
+/* Green Natural Trade 텍스트 상대적으로 작게 */
+.gn-sub {
+    font-size: 22px;
+    font-weight: 400;
+    display: block;
+}
+
+/* 모바일 반응형 조정 */
+@media (max-width: 768px) {
+    .gn-main {
+        font-size: 28px; /* 모바일에서 조금 줄임 */
+    }
+
+    .gn-sub {
+        font-size: 18px; /* 모바일에서 조금 줄임 */
+    }
+
+    .hero-text {
+        max-width: 90%; /* 모바일에서 좀 더 가독성 확보 */
+    }
+}
+
     font-size: 26px;
     font-weight: bold;
     color: white;
@@ -238,5 +278,6 @@ nav a {
     max-width: 80%;
     line-height: 1.5;
 }
+
 
 
