@@ -278,6 +278,39 @@ nav a {
     max-width: 80%;
     line-height: 1.5;
 }
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-info a {
+    color: #1abc9c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+}
+
 
 
 
